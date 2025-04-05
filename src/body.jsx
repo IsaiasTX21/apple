@@ -5,6 +5,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 
+
 function Body() {
 let elementos = [2,4,7,3,9,1,6,5,8]
 

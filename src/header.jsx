@@ -1,5 +1,5 @@
 import { Squeeze as Hamburger } from 'hamburger-react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { useState } from 'react';
 
 function Header() {
