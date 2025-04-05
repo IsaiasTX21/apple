@@ -164,7 +164,7 @@ console.log(elementos.sort((a,b)=> a-b))
           <button className=" imagen3 btn btn-primary me-5">saiba mais</button>
           <button className=" imagen3 btn btn-outline-primary">comprar</button>
         </div>
-        <img className="imagen3" id="mackbook" style={{ height: "200px", marginTop: "200px" }} src="pngegg (3).png" />
+        <img className="imagen3" id="mackbook" style={{ height: "200px", marginTop: "200px" }} src="src/pngegg (3).png" />
       </div>
 
       <div style={{ height: "600px", width: "100%", backgroundColor: "#F5F5F7" }} className="d-flex containers4   position-relative justify-content-center">
