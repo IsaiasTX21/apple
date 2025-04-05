@@ -1,0 +1,157 @@
+* {
+    padding:0px;
+    margin: 0px;
+   text-decoration: none;
+}
+
+.overflow{
+ overflow-y: hidden;
+}
+
+
+a, button {
+    cursor: default !important;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+
+#imagen2 {
+    opacity: 0;
+    transform: translateX(100px);
+    position: relative;
+}
+
+.imagen3 {
+    transform: translateX(100px);
+    position: relative;
+    opacity: 0;
+}
+
+.imagen4 {
+    transform: translateX(-100px);
+    position: relative;
+    opacity: 0;
+}
+
+.models-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    margin-top: 100px;
+}
+.menu{
+    display: none;
+}
+
+.menu.open {
+    display: block;  
+}
+
+#hamburguer {
+    display: none;
+}
+
+#apple {
+    display: none;
+}
+
+@media only screen and (min-width: 680px) {
+    .models-item {
+        width: 200px;
+        height: 400px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #lupamobile {
+        display: none;
+
+    }
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width:680px) {
+    .desktop {
+        display: none;
+
+    }
+
+    #hamburguermobile {
+        display: inline;
+        position: relative;
+    }
+
+    #hamburguer {
+        display: block;
+        position: relative;
+        bottom: 6px;
+        z-index: 1;
+    }
+
+    #mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #apple {
+        display: block;
+        height: 30px;
+        margin-top: 2px;
+    }
+
+    #lupamobile {
+        position: relative;
+        display: inline;
+        height: 30px;
+        top: 3px;
+
+    }
+    
+}
+
+@media only screen and (min-width: 300px) and (max-width:679px) {
+    .models-item {
+        width: 30%;
+        height: 300px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+}
+
+
+@media only screen and (min-width: 100px) and (max-width:299px) {
+    .models-item {
+        width: 30%;
+        height: 300px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+}
+
+
+@media only screen and (max-width:599px) {
+    #mackbook {
+        width: 250px;
+        height: 200px;
+        margin-top: 200px;
+    }
+    #imagen2 {
+  
+        opacity: 0;
+        transform: translateX(20px);
+        position: relative;
+        width: 280px;
+    }
+
+}
