@@ -3,6 +3,14 @@ import "./App.css"
 import { useLayoutEffect } from "react"
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import iphonex from "./assets/iphonex.png"
+import iphone8plus from "./assets/iphone8plus.png"
+import mackbook from "./assets/mackbook.png"
+import iPad from "./assets/iPad.png"
+  
+import ultra from "./assets/relogio-ultra.svg"
+import rosa from "./assets/relogio-rose.svg"
+ import preto from "./assets/relogio-preto.svg"
 
 
 
@@ -116,7 +124,7 @@ console.log(elementos.sort((a,b)=> a-b))
           <button className="btn btn-primary me-5">saiba mais</button>
           <button className="btn btn-outline-primary">comprar</button>
         </div>
-        <img style={{ height: "300px", marginTop: "200px" }} src=" src/assets/pngegg (2).png" />
+        <img style={{ height: "300px", marginTop: "200px" }} src={iphonex} alt="Smartphone iphone x" />
 
       </div>
 
@@ -127,7 +135,7 @@ console.log(elementos.sort((a,b)=> a-b))
           <button className=" imagen2 btn btn-primary me-5">saiba mais</button>
           <button className=" imagen2 btn btn-outline-primary">comprar</button>
         </div>
-        <img id="imagen2" style={{ height: "330px", width:"200px", marginTop: "200px" }} src=" src/assets/pngegg.png" />
+        <img id="imagen2" style={{ height: "330px", width:"200px", marginTop: "200px" }} src={iphone8plus} alt="Smartphone iphone 8 Plus" />
       </div>
 
       <section style={{ backgroundColor: "#F5F5F7" }} className="models-container">
@@ -136,21 +144,21 @@ console.log(elementos.sort((a,b)=> a-b))
         <div className="models-content" >
 
           <div className="models-item " id="model-1">
-            <img src="src/assets/relogio-preto.svg" alt="Relogio Preto" />
+            <img src={preto} alt="Relogio Preto" />
 
             <h4 className="models-title text-center">Apple Watch Series 8</h4>
             <p className="models-description text-center">A partir de <strong>R$ 5.299</strong></p>
           </div>
 
           <div className="models-item  " id="model-2">
-            <img src="src/assets/relogio-rose.svg" alt="Relogio Rose" />
+            <img src={rosa} alt="Relogio Rose" />
 
             <h4 className="models-title text-center">Apple Watch SE</h4>
             <p className="models-description text-center">A partir de <strong>R$ 3.399</strong></p>
           </div>
 
           <div className="models-item  " id="model-3">
-            <img src="src/assets/relogio-ultra.svg" alt="Relogio Ultra" />
+            <img src={ultra} alt="Relogio Ultra" />
 
             <h4 className="models-title text-center">Apple Watch Ultra</h4>
             <p className="models-description text-center">A partir de <strong>R$ 10.299</strong></p>
@@ -165,7 +173,7 @@ console.log(elementos.sort((a,b)=> a-b))
           <button className=" imagen3 btn btn-primary me-5">saiba mais</button>
           <button className=" imagen3 btn btn-outline-primary">comprar</button>
         </div>
-        <img className="imagen3" id="mackbook" style={{ height: "200px", marginTop: "200px" }} src="src/assets/pngegg (3).png" />
+        <img className="imagen3" id="mackbook" style={{ height: "200px", marginTop: "200px" }} src={mackbook} alt="mackbook" />
       </div>
 
       <div style={{ height: "600px", width: "100%", backgroundColor: "#F5F5F7" }} className="d-flex containers4   position-relative justify-content-center">
@@ -175,7 +183,7 @@ console.log(elementos.sort((a,b)=> a-b))
           <button className=" btn btn-primary me-5">saiba mais</button>
           <button className=" btn btn-outline-primary">comprar</button>
         </div>
-        <img className="imagen4" style={{ marginTop: "200px", height: "380px" }} src="src/assets/pngegg (4).png" alt="" />
+        <img className="imagen4" style={{ marginTop: "200px", height: "380px" }} src={iPad} alt="Dispositivo Ipad" />
       </div>
 
 
