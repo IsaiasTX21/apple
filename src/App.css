@@ -18,18 +18,18 @@ a, button {
 
 #imagen2 {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(40px);
     position: relative;
 }
 
 .imagen3 {
-    transform: translateX(100px);
+    transform: translateX(40px);
     position: relative;
     opacity: 0;
 }
 
 .imagen4 {
-    transform: translateX(-100px);
+    transform: translateX(-40px);
     position: relative;
     opacity: 0;
 }

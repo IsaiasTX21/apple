@@ -15,13 +15,7 @@ import rosa from "./assets/relogio-rose.svg"
 
 
 function Body() {
-let elementos = [2,4,7,3,9,1,6,5,8]
 
-   function amostrar(){
-console.log(elementos.sort((a,b)=> a-b))
-   }
-
-   amostrar()
   useLayoutEffect(() => {
 
     gsap.registerPlugin(ScrollTrigger)
