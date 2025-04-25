@@ -115,8 +115,8 @@ function Body() {
         <div className=" position-absolute mt-5">
           <h1 className=" text-center " >iphone X</h1>
           <p className="">Veja o mundo de outro ângulo</p>
-          <button className="btn btn-primary me-5">saiba mais</button>
-          <button className="btn btn-outline-primary">comprar</button>
+          <button className="btn bg-primary text-white me-5">saiba mais</button>
+          <button style={{backgroundColor:"#FF008B"}} className="btn text-white">comprar</button>
         </div>
         <img style={{ height: "300px", marginTop: "200px" }} src={iphonex} alt="Smartphone iphone x" />
 
@@ -126,8 +126,8 @@ function Body() {
         <div id="imagen2" className="  position-absolute ">
           <h1 className=" text-center " >iphone 8 plus</h1>
           <p className="imagen2">Veja o mundo de outro ângulo</p>
-          <button className=" imagen2 btn btn-primary me-5">saiba mais</button>
-          <button className=" imagen2 btn btn-outline-primary">comprar</button>
+          <button className="btn bg-primary text-white me-5">saiba mais</button>
+          <button style={{backgroundColor:"#FF008B"}} className="btn text-white">comprar</button>
         </div>
         <img id="imagen2" style={{ height: "330px", width:"200px", marginTop: "200px" }} src={iphone8plus} alt="Smartphone iphone 8 Plus" />
       </div>
@@ -165,7 +165,7 @@ function Body() {
           <h1 className=" imagen3 text-center " >Mackbook</h1>
           <p className="imagen3">Veja o mundo de outro ângulo</p>
           <button className=" imagen3 btn btn-primary me-5">saiba mais</button>
-          <button className=" imagen3 btn btn-outline-primary">comprar</button>
+         <button style={{backgroundColor:"#FF008B"}} className=" imagen3 btn text-white">comprar</button>
         </div>
         <img className="imagen3" id="mackbook" style={{ height: "200px", marginTop: "200px" }} src={mackbook} alt="mackbook" />
       </div>
@@ -175,7 +175,7 @@ function Body() {
           <h1 className=" text-center"> ipad </h1>
           <p >Veja o mundo de outro ângulo</p>
           <button className=" btn btn-primary me-5">saiba mais</button>
-          <button className=" btn btn-outline-primary">comprar</button>
+          <button style={{backgroundColor:"#FF008B"}} className="btn text-white">comprar</button>
         </div>
         <img className="imagen4" style={{ marginTop: "200px", height: "380px" }} src={iPad} alt="Dispositivo Ipad" />
       </div>
