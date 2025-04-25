@@ -164,7 +164,7 @@ function Body() {
         <div className=" position-absolute mt-5">
           <h1 className=" imagen3 text-center " >Mackbook</h1>
           <p className="imagen3">Veja o mundo de outro ângulo</p>
-          <button className=" imagen3 btn btn-primary me-5">saiba mais</button>
+          <button className=" imagen3 text-white btn bg-primary  me-5">saiba mais</button>
          <button style={{backgroundColor:"#FF008B"}} className=" imagen3 btn text-white">comprar</button>
         </div>
         <img className="imagen3" id="mackbook" style={{ height: "200px", marginTop: "200px" }} src={mackbook} alt="mackbook" />
@@ -174,7 +174,7 @@ function Body() {
         <div className="imagen4 position-absolute ">
           <h1 className=" text-center"> ipad </h1>
           <p >Veja o mundo de outro ângulo</p>
-          <button className=" btn btn-primary me-5">saiba mais</button>
+          <button className=" btn bg-primary text-white  me-5">saiba mais</button>
           <button style={{backgroundColor:"#FF008B"}} className="btn text-white">comprar</button>
         </div>
         <img className="imagen4" style={{ marginTop: "200px", height: "380px" }} src={iPad} alt="Dispositivo Ipad" />
