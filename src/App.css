@@ -1,18 +1,22 @@
 * {
-    padding:0px;
+    padding: 0px;
     margin: 0px;
-   text-decoration: none;
 }
 
-.overflow{
- overflow-y: hidden;
+.overflow {
+    overflow-y: hidden;
 }
 
+#root {
+    background-color: #F5F5F7;
+}
 
-a, button {
-    cursor: default !important;
-    font-size: 12px;
+a,
+a:active {
     text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: black;
 
 }
 
@@ -48,12 +52,13 @@ a, button {
     height: 500px;
     margin-top: 100px;
 }
-.menu{
+
+.menu {
     display: none;
 }
 
 .menu.open {
-    display: block;  
+    display: block;
 }
 
 #hamburguer {
@@ -116,7 +121,8 @@ a, button {
         top: 3px;
 
     }
-       .models-item {
+
+    .models-item {
         width: 30%;
         height: 300px;
         margin-top: 50px;
@@ -125,7 +131,7 @@ a, button {
         justify-content: space-around;
 
     }
-    
+
 }
 
 
@@ -148,8 +154,9 @@ a, button {
         height: 200px;
         margin-top: 200px;
     }
+
     #imagen2 {
-  
+
         opacity: 0;
         transform: translateX(20px);
         position: relative;
