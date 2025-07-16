@@ -194,7 +194,7 @@ function Body() {
           <p >Veja o mundo de outro ângulo</p>
         <p className="models-description text-center">A partir de <strong>R$ 2.199</strong></p>
         </div>
-        <img className="imagen4" style={{ marginTop: "200px", height: "300px" }} src={airpods} alt="Dispositivo Ipad" />
+        <img className="imagen4" style={{ marginTop: "200px", height: "300px" }} src={airpods} alt=" Ipad" />
       </div>
 
            <div style={{ height: "600px", width: "100%", backgroundColor: "#F5F5F7" }} className="d-flex containers5   position-relative justify-content-center">
@@ -203,7 +203,7 @@ function Body() {
           <p> Assista suas programações em 4k</p>
         <p className="models-description text-center">A partir de <strong>R$ 1.999</strong></p>
         </div>
-        <img className="imagen5" style={{ marginTop: "200px", height: "300px" }} src={appleTV} alt="Dispositivo Ipad" />
+        <img className="imagen5" style={{ marginTop: "200px", height: "250px"}} src={appleTV} alt="apple tv" />
       </div>
 
 

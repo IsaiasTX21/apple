@@ -80,8 +80,6 @@ a, button {
     }
 }
 
-
-
 @media only screen and (min-width: 300px) and (max-width:680px) {
     .desktop {
         display: none;
@@ -118,11 +116,7 @@ a, button {
         top: 3px;
 
     }
-    
-}
-
-@media only screen and (min-width: 300px) and (max-width:679px) {
-    .models-item {
+       .models-item {
         width: 30%;
         height: 300px;
         margin-top: 50px;
@@ -131,6 +125,7 @@ a, button {
         justify-content: space-around;
 
     }
+    
 }
 
 
