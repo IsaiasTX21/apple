@@ -3,11 +3,14 @@ import "./App.css"
 import { useLayoutEffect } from "react"
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import iphonex from "./assets/iphonex.png"
-import iphone8plus from "./assets/iphone8plus.png"
+
+
 import mackbook from "./assets/mackbook.png"
 import iPad from "./assets/iPad.png"
-  
+import iphone16 from "./assets/iphone16.png"
+import airpods from "./assets/airpods.png"
+import appleTV from "./assets/appletv.png"  
+
 import ultra from "./assets/relogio-ultra.svg"
 import rosa from "./assets/relogio-rose.svg"
  import preto from "./assets/relogio-preto.svg"
@@ -55,11 +58,29 @@ function Body() {
         trigger: ".containers4",
         start: "top 70%",
         end: "bottom 100%",
-        scrub:true
+        scrub:true,
+   
 
        
       }
     })
+
+     gsap.registerPlugin(ScrollTrigger)
+    gsap.to(".imagen5", {
+      x: 0,
+      y: 0,
+      opacity: 1,
+      scrollTrigger: {
+        trigger: ".containers5",
+        start: "top 70%",
+        end: "bottom 100%",
+        scrub:true,
+        
+
+       
+      }
+    })
+   
    
 
     gsap.registerPlugin(ScrollTrigger)
@@ -113,23 +134,21 @@ function Body() {
 
       <div style={{ height: "600px", width: "100%", backgroundColor: "#F5F5F7" }} className="d-flex containers1 position-relative justify-content-center">
         <div className=" position-absolute mt-5">
-          <h1 className=" text-center " >iphone X</h1>
+          <h1 className=" text-center " >iphone 16 Plus</h1>
           <p className="">Veja o mundo de outro ângulo</p>
-          <button className="btn bg-primary text-white me-5">saiba mais</button>
-          <button style={{backgroundColor:"#FF008B"}} className="btn text-white">comprar</button>
+           <p className="models-description text-center">A partir de <strong>R$ 8.299</strong></p>
         </div>
-        <img style={{ height: "300px", marginTop: "200px" }} src={iphonex} alt="Smartphone iphone x" />
+        <img style={{ height: "300px", marginTop: "200px" }} src={iphone16} alt="Smartphone iphone x" />
 
       </div>
 
       <div style={{ height: "600px", width: "100%", backgroundColor: "#F5F5F7" }} className="d-flex containers2  position-relative justify-content-center">
         <div id="imagen2" className="  position-absolute ">
-          <h1 className=" text-center " >iphone 8 plus</h1>
+          <h1 className=" text-center " >iPad Pro</h1>
           <p className="imagen2">Veja o mundo de outro ângulo</p>
-          <button className="btn bg-primary text-white me-5">saiba mais</button>
-          <button style={{backgroundColor:"#FF008B"}} className="btn text-white">comprar</button>
+           <p className="models-description text-center">A partir de <strong>R$ 13.999</strong></p>
         </div>
-        <img id="imagen2" style={{ height: "330px", width:"200px", marginTop: "200px" }} src={iphone8plus} alt="Smartphone iphone 8 Plus" />
+        <img id="imagen2" style={{ height: "330px",  marginTop: "200px" }}  src={iPad} alt="iPad Pro" />
       </div>
 
       <section style={{ backgroundColor: "#F5F5F7" }} className="models-container">
@@ -164,21 +183,31 @@ function Body() {
         <div className=" position-absolute mt-5">
           <h1 className=" imagen3 text-center " >Mackbook</h1>
           <p className="imagen3">Veja o mundo de outro ângulo</p>
-          <button className=" imagen3 text-white btn bg-primary  me-5">saiba mais</button>
-         <button style={{backgroundColor:"#FF008B"}} className=" imagen3 btn text-white">comprar</button>
+         <p className="imagen3 models-description text-center">A partir de <strong>R$ 5.999</strong></p>
         </div>
-        <img className="imagen3" id="mackbook" style={{ height: "200px", marginTop: "200px" }} src={mackbook} alt="mackbook" />
+        <img className="imagen3 ms-5" id="mackbook" style={{ height: "200px", marginTop: "200px" }} src={mackbook} alt="mackbook" />
       </div>
 
-      <div style={{ height: "600px", width: "100%", backgroundColor: "#F5F5F7" }} className="d-flex containers4   position-relative justify-content-center">
+           <div style={{ height: "600px", width: "100%", backgroundColor: "#F5F5F7" }} className="d-flex containers4   position-relative justify-content-center">
         <div className="imagen4 position-absolute ">
-          <h1 className=" text-center"> ipad </h1>
+          <h1 className=" text-center"> airpods </h1>
           <p >Veja o mundo de outro ângulo</p>
-          <button className=" btn bg-primary text-white  me-5">saiba mais</button>
-          <button style={{backgroundColor:"#FF008B"}} className="btn text-white">comprar</button>
+        <p className="models-description text-center">A partir de <strong>R$ 2.199</strong></p>
         </div>
-        <img className="imagen4" style={{ marginTop: "200px", height: "380px" }} src={iPad} alt="Dispositivo Ipad" />
+        <img className="imagen4" style={{ marginTop: "200px", height: "300px" }} src={airpods} alt="Dispositivo Ipad" />
       </div>
+
+           <div style={{ height: "600px", width: "100%", backgroundColor: "#F5F5F7" }} className="d-flex containers5   position-relative justify-content-center">
+        <div className="imagen5 mt-5 position-absolute ">
+          <h1 className=" text-center " > AppleTV </h1>
+          <p> Assista suas programações em 4k</p>
+        <p className="models-description text-center">A partir de <strong>R$ 1.999</strong></p>
+        </div>
+        <img className="imagen5" style={{ marginTop: "200px", height: "300px" }} src={appleTV} alt="Dispositivo Ipad" />
+      </div>
+
+
+ 
 
 
 

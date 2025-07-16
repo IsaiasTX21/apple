@@ -33,7 +33,7 @@ function Header() {
 
     return (
         <>
-            <header style={{ height: "40px",backgroundColor:"#F5F5F7", opacity: 0.95, }} className=' m-0 p-0 m-auto align-content-center sticky-top m-0 p-0 '>
+            <header style={{ height: "40px",backgroundColor:"rgba(245, 245, 247, 0.9)", }} className=' m-0 p-0 m-auto align-content-center sticky-top m-0 p-0 '>
                 <div className='position-fixed menu bg-white  sticky-top  ' style={{ minHeight: "100vh", width: "100%", zIndex: 1 }}>
                     <ul className='m-0 p-0 d-flex flex-column  '>
 
